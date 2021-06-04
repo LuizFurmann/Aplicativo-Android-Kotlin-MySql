@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="1dp"
+    android:layout_marginLeft="1dp"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:id="@+id/card_pedido"
+        android:background="@drawable/layout_radius"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:divider="@color/black"
+        android:showDividers="middle"
+        android:padding="8dp">
+
+    <TextView
+        android:id="@+id/numero_pedido"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="TextView" />
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:id="@+id/data_pedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:id="@+id/texto_observacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>
